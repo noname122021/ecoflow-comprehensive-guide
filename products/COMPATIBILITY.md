@@ -13,10 +13,14 @@ Can I plug a battery from `Model X` into `Model Y`?
 | **Delta Max** | Delta Max EB, Delta 2 EB (Firmware limited) | Best to stick with matching EB. |
 | **Delta Pro** | Delta Pro EB | **Proprietary Voltage**. Cannot use generic Delta batteries. |
 | **Delta Pro 3** | Delta Pro 3 EB, Delta Pro EB (with adapter) | Backwards compatible with original Pro batteries. |
+| **Delta 3 Plus / Max**| Delta 3 Plus/Max EB, Delta 2/Max EB, **Pro 3 EB¹** | ¹ *Requires multi-step adapter chain (see below).* |
 | **River 2 Series**| NONE | River 2 series units are **not** expandable (sealed). |
 | **River Pro (Old)**| River Pro EB | 専用 cable required. |
 
 > **Hack Note**: See `hardware/EXTRA_BATTERY.md` for how to bypass these limits using the "Resistor Hack" to connect generic 48V batteries to **Delta 2 / Delta Max** ports.
+>
+> **The "Bridge" Solution**: To connect a **Delta Pro 3 Extra Battery** to a **Delta 3 Plus/Max** (or Delta 2/Max), you need: 
+> `Pro 3 EB` -> `EB Cable` -> `Smart Generator Adapter` -> `XT150 Cable` -> `Main Unit`.
 >
 > **Power Kit Batteries (2kWh / 5kWh)**: These are **NOT** directly compatible with Delta/River units via a simple cable. They require the **Power Hub** OR the **LFP Battery Polarity Adapter** (making them a generic 48V source, which then requires the Resistor Hack to feed a Delta unit).
 
@@ -48,6 +52,7 @@ Can I use Solar Panel X with Power Station Y?
 | Main Unit | **PowerStream** (Microinverter) | **Alternator Charger** (800W) | Notes |
 | :--- | :--- | :--- | :--- |
 | **Delta Pro 3** | ✅ | ✅ | Alt Charger needs adapter. |
+| **Delta 3 Plus / Max**| ✅ | ✅ | Direct XT150 connection. |
 | **Delta Pro** | ✅ (Needs Cable) | ✅ (Needs Adapter) | PowerStream needs BKW-DeltaPro cable. |
 | **Delta 2 Max** | ✅ (Needs Cable) | ✅ (Direct XT150) | Best match for Alternator Charger (Fast charge). |
 | **Delta 2** | ✅ (Needs Cable) | ✅ (Direct XT150) | |

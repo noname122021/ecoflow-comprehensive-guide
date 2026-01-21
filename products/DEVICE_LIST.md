@@ -15,6 +15,14 @@ The DELTA series is designed for high output and capacity, suitable for home bac
 *   **Key Features**: 120V/240V split phase capable without extra hub (in some configs), quiet operation.
 *   **Expansion**: Supports Delta Pro 3 Extra Batteries & original Delta Pro Extra Batteries (with adapter).
 
+### DELTA 3 Plus (2024/2025)
+*   **Status**: New Mid-Tier Flagship.
+*   **Capacity**: 1024 Wh.
+*   **Battery**: LiFePO4 (LFP).
+*   **Output**: 1800W AC (X-Boost to 2700W).
+*   **Key Upgrade**: Ultra-fast charging (0-100% in ~56 mins), 10ms UPS grade switching.
+*   **Expansion**: Uses XT150 port. Compatible with Delta 2/Max batteries AND Pro 3 batteries (via Smart Generator Adapter chain).
+
 ### DELTA 2 Max (2023)
 *   **Status**: Current High-Tier.
 *   **Capacity**: 2048 Wh.
