@@ -14,15 +14,22 @@ The PowerStream is a sophisticated grid-tie microinverter, but early units have 
     *   *Fix*: Disconnect PV + Battery, wait 10 mins, reconnect. Add active cooling (fan).
 2.  **Dead Unit (No LEDs)**:
     *   *Cause*: Internal power supply failure or blown protection fuse after grid surge.
-    *   *Observation*: Teardowns often reveal a blown SMD fuse near the grid connector.
-3.  **Overheating Throttling**:
+    *   *Observation*: Teardowns reveal a blown SMD fuse near the grid connector or battery input.
+3.  **Error Code "12" ("Not connected to grid")**:
+    *   *Symptom*: Unit displays "Not connected to grid" even when physically plugged in. No power output.
+    *   *Cause*: Often a hardware failure in the grid-tie synchronization circuit or a blown AC-side protection component (GDT/GaN ICs). 
+4.  **Overheating Throttling**:
     *   The unit is passively cooled. Pushing 800W for long periods > 25°C ambient causes throttling to 600W or shutdown.
     *   *Mod*: Users attach PC fans to the back heatsink metal.
 
 ### Internal Components (Teardown Data)
-*   **Waterproofing**: The internal PCB is heavily potted (coated) with a dielectric resin/glue.
-    *   *Repairability*: **Very Low**. Replacing components requires digging through hard resin, risking PCB damage.
-*   **Protection**: Gas Discharge Tubes (GDT) and MOVs (Metal Oxide Varistors) are present for surge protection.
+*   **MCU**: **ESP32-C3-mini-1U** (Espressif).
+*   **Power Stage ICs**: **LMG3411** (Texas Instruments Gallium Nitride / GaN power stages). These are high-performance but prone to catastrophic failure during surges.
+*   **Protection (GSC300)**: A **Gas Discharge Tube (GDT)**. It should be open-circuit (no continuity) during normal operation. Continuity indicates it has failed and is shorting the grid.
+*   **Fuses**: A **20A 72V SMD fuse** is located near the battery connector and is a common failure point.
+*   **Waterproofing**: The internal PCB is heavily potted with a dielectric "sticky substance" (resin).
+    *   *Repairability*: **Very Low**. The board is held by 10 Philips screws after removing the 5 Torx 10 cover screws, but it is effectively glued into the shell.
+*   **Debug Interfaces**: Exposed **UART** and **JTAG** pads are present on the PCB near the Bluetooth label.
 
 ---
 
@@ -59,9 +66,12 @@ Parts identified in various teardowns (River/Delta series).
 ### Chips & FETs (Verified Part Numbers)
 *   **Main MCU**: GigaDevice `GD32F303RCT6A` (ARM Cortex-M4) - Logic/Controller.
 *   **Gate Drivers**: `NSI6602` (Isolated dual-channel, common in Delta Max/Pro inverter stages).
-*   **Wi-Fi/BT**: Espressif `ESP32-C6` or `ESP32-WROVER` (Used for App connectivity).
+*   **Wi-Fi/BT**: 
+    *   Espressif `ESP32-C6` or `ESP32-WROVER` (Delta/River series).
+    *   Espressif `ESP32-C3-mini-1U` (PowerStream).
 *   **Current Sense Amps**: `TP181A3-CR` / `INA199` / `INA210` (Gain 200, used for shunts).
-*   **Inverter Switchers**: 
+*   **Inverter Switchers / Power Stages**: 
+    *   `LMG3411` (TI GaN Power Stage, found in PowerStream).
     *   `YGW60N65F1` (650V 60A IGBT, often found in Delta Max/Pro output stages).
     *   `CR MICRO HGQ065NE4A` (High-efficiency MOSFET, used for USB-C PD stages in River 3).
 *   **Display Driver**: i-Core (LQFP48 package).

@@ -3,6 +3,8 @@
 This document catalogs the "Eco-system" products that go beyond the basic power stations.
 
 ## ☀️ PowerStream (Balcony Solar System) (May 2023)
+*   **Status**: **EOL (End of Life)** in many regions; production shifting.
+*   **Replacement**: No direct "V2" microinverter, but succeeded by **PowerOcean** and **PowerOcean DC Fit** for full-home solar integration.
 *   **Type**: Microinverter (Grid-Tied).
 *   **Specs**: 800W AC Output (Grid) / 800W PV Input.
 *   **Battery Port**: 600W DC Input/Output. Connects to almost ALL EcoFlow power stations (Delta/River) acting as a massive battery buffer.
@@ -23,6 +25,8 @@ This document catalogs the "Eco-system" products that go beyond the basic power 
 In 2023, EcoFlow expanded into "Smart Devices" that use their battery tech.
 
 ### EcoFlow WAVE 2 (May 2023)
+*   **Status**: **Current Model**.
+*   **Replacement for**: EcoFlow WAVE (Original).
 *   **Type**: Portable Air Conditioner & Heater.
 *   **Performance**: 5100 BTU Cooling / 6100 BTU Heating.
 *   **Battery**: Uses add-on battery (1159Wh) or connects to Delta 2/Max/Pro.
@@ -38,7 +42,7 @@ In 2023, EcoFlow expanded into "Smart Devices" that use their battery tech.
 ### EcoFlow BLADE (April 2023)
 *   **Type**: Robotic Lawnmower with Lawn Sweeping Kit.
 *   **Key Tech**: RTK GPS (No perimeter wire needed).
-*   **Status**: Mixed reception due to complexity and navigation issues compared to competitors.
+*   **Status**: **Officially Discontinued** (Late 2023). Mixed reception due to complexity and navigation issues compared to competitors. EcoFlow has pivoted back to core energy storage products.
 
 ---
 

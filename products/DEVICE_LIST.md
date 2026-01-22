@@ -34,7 +34,7 @@ The DELTA series is designed for high output and capacity, suitable for home bac
 *   **Compatibility**: Works with Delta 2 Max EB, Delta 2 EB, and legacy Delta Max EB.
 
 ### DELTA 2 (2022)
-*   **Status**: Best Seller / Mid-Range.
+*   **Status**: Best Seller / Mid-Range. (Replacement for Original DELTA and DELTA Mini).
 *   **Capacity**: 1024 Wh.
 *   **Battery**: LiFePO4 (LFP) - 3000+ cycles.
 *   **Output**: 1800W AC.
@@ -42,7 +42,8 @@ The DELTA series is designed for high output and capacity, suitable for home bac
 *   **Notes**: The first mainstream shift to LFP for the mid-range.
 
 ### DELTA Pro (2021)
-*   **Status**: Legacy Flagship (still capable).
+*   **Status**: Transitioning to **Legacy**.
+*   **Replacement**: **DELTA Pro 3**.
 *   **Capacity**: 3600 Wh.
 *   **Battery**: LiFePO4 (LFP).
 *   **Output**: 3600W AC (7200W Surge).
@@ -51,13 +52,22 @@ The DELTA series is designed for high output and capacity, suitable for home bac
 *   **Ecosystem**: Smart Home Panel, EV Charging adapter.
 
 ### DELTA Max 1600 / 2000 (2021)
-*   **Status**: Discontinued / Legacy.
+*   **Status**: **Discontinued**.
+*   **Replacement**: **DELTA 2 Max**.
 *   **Capacity**: 1612 Wh / 2016 Wh.
 *   **Battery**: NCM (Nickel Manganese Cobalt) - ~800 cycles to 80%.
 *   **Notes**: Lighter than LFP equivalents but shorter lifespan.
 
+### DELTA Mini (2021)
+*   **Status**: **Discontinued**.
+*   **Replacement**: **DELTA 2**.
+*   **Capacity**: 882 Wh.
+*   **Battery**: NCM.
+*   **Notes**: Compact size but lower cycle life than the LFP-based Delta 2.
+
 ### DELTA (Original / 1300) (2019)
-*   **Status**: Discontinued / Retro.
+*   **Status**: **Discontinued** / Retro.
+*   **Replacement**: **DELTA 2**.
 *   **Capacity**: 1260 Wh.
 *   **Battery**: NCM.
 *   **Pros**: Fast charging (X-Stream debut).
@@ -83,6 +93,8 @@ The RIVER series focuses on portability and "grab-and-go" power.
 *   **Expansion**: Generally NO extra battery ports (unlike River 1). The "Pro" is standalone.
 
 ### RIVER (Original Series) (2017-2020)
+*   **Status**: **Discontinued**.
+*   **Replacement**: **RIVER 2 Series**.
 *   **Models**: River, River Max, River Pro.
 *   **Battery**: NCM.
 *   **Unique Feature**: The "Max" was just a River + a bolt-on extra battery module.
