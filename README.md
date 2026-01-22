@@ -33,4 +33,7 @@ Welcome to the unofficial guide for modifying, hacking, and deeply integrating E
 ## Community Resources
 *   [r/Ecoflow_community](https://www.reddit.com/r/Ecoflow_community/)
 *   [DIY Solar Power Forum](https://diysolarforum.com/)
+*   [local-powerstream (tomvd)](https://github.com/tomvd/local-powerstream) - Local control via MQTT redirection.
+*   [EcoFlow-CanBus-Reverse-Engineering (bulldog5046)](https://github.com/bulldog5046/EcoFlow-CanBus-Reverse-Engineering) - Hardware CAN signals.
+*   [hassio-ecoflow (vwt12eh8)](https://github.com/vwt12eh8/hassio-ecoflow) - Home Assistant local/cloud integration.
 *   [GitHub Topic: EcoFlow](https://github.com/topics/ecoflow)

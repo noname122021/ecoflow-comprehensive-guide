@@ -19,6 +19,9 @@ The community has discovered that on many models (Delta 2, Delta Max), the activ
 ### Principle
 By bridging the "Enable" or "Sense" pin to Ground (or sometimes a logic 3.3V rail, depending on revision) with a specific resistor, we can trick the main unit's BMS into closing the relay and accepting power from the port.
 
+> [!IMPORTANT]
+> **Newer Units & CAN Bus**: For devices like **PowerStream**, **Delta Pro**, and **Delta 2 Max (v1.1.3+)**, the resistor trick may not be enough. These units require an active **CAN bus heartbeat** signal to acknowledge the battery's presence.
+
 ### Required Components
 - **XT150 Connectors** (or Amass XT150): The main power connectors used by EcoFlow.
 - **1k Ohm Resistor** (1/4 watt is fine).
@@ -59,6 +62,20 @@ The Extra Battery port typically has 2 large pins (Power) and smaller pins (Data
 1.  **No Data Reading**: The EcoFlow will NOT know the precise percentage of your external battery. It will just see voltage.
 2.  **Charging**: The EcoFlow *might* try to charge the external battery if the internal voltage is higher. This can be dangerous if the external battery doesn't have its own high-quality BMS to handle the current.
 3.  **Inaccurate State of Charge (SoC)**: The main unit's remaining time/percentage calculation will be wrong because it doesn't account for the extra capacity correctly.
+
+## Advanced: CAN Bus Activation
+If the resistor trick fails, you may need a microcontroller (like an ESP32 or Arduino with a CAN transceiver) to send spoofed heartbeats.
+
+### The "Golden Message"
+Research from the community (`bulldog5046/EcoFlow-CanBus-Reverse-Engineering`) has identified specific CAN messages (Type `3C`) required to wake up the battery port on PowerStream devices.
+
+*   **CAN ID**: `10003001` (and subsequent response IDs).
+*   **Payload Example**: `AA0384003C2EAC04` (See reference repo for full 18-message handshake).
+*   **Purpose**: These messages mimic the BMS of an official Smart Extra Battery, reporting voltage, temperature, and cell balance data.
+
+### Repositories for CAN Hacking:
+- [EcoFlow-CanBus-Reverse-Engineering (bulldog5046)](https://github.com/bulldog5046/EcoFlow-CanBus-Reverse-Engineering)
+- [wattzup (stewartoallen)](https://github.com/GridSpace/wattzup)
 
 ## Compatible Batteries
 - **48V LiFePO4 typically recommended.**
