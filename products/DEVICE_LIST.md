@@ -80,9 +80,14 @@ The DELTA series is designed for high output and capacity, suitable for home bac
 The RIVER series focuses on portability and "grab-and-go" power.
 
 ### RIVER 3 Series (2024/2025)
-*   **Models**: River 3, River 3 Plus, River 3 Max.
-*   **Key Upgrade**: Improved GaN (Gallium Nitride) technology for smaller footprint, better efficiency.
-*   **Battery**: LiFePO4.
+*   **Status**: Newest Generation.
+*   **Models**: 
+    *   **River 3**: 245 Wh. Ultra-compact. 300W AC output.
+    *   **River 3 Plus**: 286 Wh. Expansion port for Extra Battery.
+    *   **River 3 Max**: 572 Wh (River 3 Plus + EB attached).
+*   **Key Upgrade**: **X-GaN technology**. First portable station to use Gallium Nitride for the entire power path, reducing heat by 30% and size by 20% compared to River 2.
+*   **UPS Mode**: 10ms (Certified for desktop PCs).
+*   **Battery**: LiFePO4 (LFP) - 3000 cycles.
 
 ### RIVER 2 Series (2022)
 *   **Models**:
@@ -91,6 +96,14 @@ The RIVER series focuses on portability and "grab-and-go" power.
     *   **River 2 Pro**: 768 Wh.
 *   **Key Feature**: Full switch to LFP battery (10+ year life). fast charging (~1 hour).
 *   **Expansion**: Generally NO extra battery ports (unlike River 1). The "Pro" is standalone.
+
+### RIVER mini (Standard / Wireless) (2022)
+*   **Status**: **Discontinued**.
+*   **Capacity**: 210 Wh.
+*   **Battery**: NCM.
+*   **Output**: 300W AC (600W Surge).
+*   **Notes**: The most compact EcoFlow station. "Wireless" version included a 100W USB-C port and top charging pad; the "Standard" version lacked USB-C.
+*   **Expansion**: **NONE**.
 
 ### RIVER (Original Series) (2017-2020)
 *   **Status**: **Discontinued**.

@@ -10,7 +10,7 @@ Can I plug a battery from `Model X` into `Model Y`?
 | :--- | :--- | :--- |
 | **Delta 2** | Delta 2 EB | Can technically use Delta Max EB (Capacity display might be buggy). |
 | **Delta 2 Max** | Delta 2 Max EB, Delta 2 EB, Delta Max EB | Highly versatile. Treats Delta 2 EB as a generic expansion. |
-| **Delta Max** | Delta Max EB, Delta 2 EB (Firmware limited) | Best to stick with matching EB. |
+| **Delta Max** | Delta Max EB, Delta 2 Max EB (Limited support) | **Delta Max 1600** is incompatible with Delta 2 EB due to discharge rate (1C) risks. |
 | **Delta Pro** | Delta Pro EB | **Proprietary Voltage**. Cannot use generic Delta batteries. |
 | **Delta Pro 3** | Delta Pro 3 EB, Delta Pro EB (with adapter) | Backwards compatible with original Pro batteries. |
 | **Delta 3 Plus / Max**| Delta 3 Plus/Max EB, Delta 2/Max EB, **Pro 3 EB¹** | ¹ *Requires multi-step adapter chain (see below).* |

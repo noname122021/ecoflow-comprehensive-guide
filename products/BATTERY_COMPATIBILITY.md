@@ -4,17 +4,31 @@ This matrix defines which power stations (Main Units) can accept which Extra Bat
 
 ## 🔋 DELTA Series Compatibility
 
-| Extra Battery Model | Capacity | Chemistry | **DELTA 2** | **DELTA 2 Max** | **DELTA Max** | **DELTA Pro** | **DELTA Pro 3** | **DELTA 3 Series** |
+| Extra Battery Model | Capacity | Chemistry | **DELTA 2** | **DELTA 2 Max** | **DELTA Max (1600)** | **DELTA Max (2000)** | **DELTA Pro** | **DELTA Pro 3** |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **DELTA 2 EB** | 1024 Wh | LFP | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| **DELTA 2 Max EB**| 2048 Wh | LFP | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| **DELTA Max EB** | 2016 Wh | NCM | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
-| **DELTA Pro EB** | 3600 Wh | LFP | ❌ | ❌ | ❌ | ✅ | ✅¹ | ✅² |
-| **DELTA Pro 3 EB**| 4096 Wh | LFP | ❌ | ❌ | ❌ | ✅ | ✅ | ✅² |
-| **DELTA 3 Plus EB**| 1024 Wh | LFP | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
+| **DELTA 2 EB** | 1024 Wh | LFP | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **DELTA 2 Max EB**| 2048 Wh | LFP | ✅ | ✅ | ❌ | ✅ | ❌ | ❌ |
+| **DELTA Max EB** | 2016 Wh | NCM | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
+| **DELTA Pro EB** | 3600 Wh | LFP | ❌ | ❌ | ❌ | ❌ | ✅ | ✅¹ |
+| **DELTA Pro 3 EB**| 4096 Wh | LFP | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
+| **DELTA 3 Plus EB**| 1024 Wh | LFP | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **BLADE EB** | 1024 Wh | LFP | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+## 🔋 RIVER Series Compatibility
+
+The RIVER series is mostly standalone. Only specific models support expansion via dedicated battery modules.
+
+| Extra Battery Model | Capacity | Main Unit | Connection Type |
+| :--- | :---: | :--- | :--- |
+| **RIVER EB Module** | 288 Wh | RIVER (Original) | Bolt-on (Internal Bus) |
+| **RIVER Pro EB** | 720 Wh | RIVER Pro (Original)| Proprietary External Cable |
+| **RIVER 3 Max EB** | 245 Wh | RIVER 3 Plus | Proprietary External Cable |
+
+> **Note**: The **RIVER mini** and **RIVER 2** series (2, Max, Pro) have **NO** extra battery ports. They are designed as fixed-capacity units.
 
 ¹ *Requires the DELTA Pro to DELTA Pro 3 Adapter cable.*
 ² *Requires the multi-step adapter chain (see below).*
+*   ***Important Note on DELTA Max 1600***: Newer LFP-based batteries (Delta 2 EB, Delta 2 Max EB) are generally **incompatible** with the 1600W model due to firmware limitations and high discharge risks (The 1C Rule).
 
 ---
 
@@ -44,9 +58,12 @@ This matrix defines which power stations (Main Units) can accept which Extra Bat
 1.  **Ports limit**: 
     *   **DELTA 2**: Only 1 Extra Battery port.
     *   **DELTA 2 Max / DELTA Max**: 2 Extra Battery ports. Can mix different batteries (e.g., 1x Delta 2 EB + 1x Delta Max EB).
-2.  **Sequential Behavior**: When mixing NCM and LFP batteries, the system often discharges the LFP battery first (higher efficiency) and then the NCM, or vice versa depending on firmware.
-3.  **Pro vs. Rest**: The "Pro" line (Pro 1, Pro 3, Ultra) uses a physically larger and electrically different connector than the "Standard Delta" line. They are **NOT** interchangeable without specific EcoFlow adapters.
-4.  **DELTA Pro Ultra**: Uses a unique 5+8 pin connector. It is currently isolated from the rest of the Delta ecosystem batteries.
+2.  **Sequential Behavior**: When mixing NCM and LFP batteries, the system operates as follows:
+    *   **Discharge**: The **Main Unit** usually discharges first and hits 0% before the Extra Battery starts providing significant power (or vice versa, depending on SoC logic).
+    *   **Charge**: The **Main Unit** charges last. The Extra Battery is topped up first to maximize its dedicated storage.
+3.  **No "Station-to-Station"**: **NEVER** connect two Power Stations together via the Extra Battery ports (e.g., Delta 2 to Delta Max). This can cause back-feeding and irreversible damage to both BMS units.
+4.  **Pro vs. Rest**: The "Pro" line (Pro 1, Pro 3, Ultra) uses a physically larger and electrically different connector than the "Standard Delta" line. They are **NOT** interchangeable without specific EcoFlow adapters.
+5.  **BLADE EB Secret**: The robotic mower battery (BLADE EB) is electrically identical to a Delta 2 EB and works perfectly with the Delta 2 station using a standard XT150 cable.
 
 ---
 
