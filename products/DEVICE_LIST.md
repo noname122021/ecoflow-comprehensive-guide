@@ -115,6 +115,27 @@ The RIVER series focuses on portability and "grab-and-go" power.
 
 ---
 
+## 🌊 STREAM Series (Home Grid-Tied Solar)
+
+Managed via the **EcoFlow OASIS** platform, this series bridges the gap between portable power and permanent home solar.
+
+### STREAM Ultra (2024)
+*   **Status**: Current Flagship Home Solar Unit.
+*   **Type**: All-in-one Inverter + Battery.
+*   **Capacity**: 1.92 kWh (Stackable up to 11.52 kWh).
+*   **Solar Max**: 2000W (4 MPPT).
+*   **AC Output**: 2300W (Grid-tied).
+*   **Note**: Uses a slimmer, vertical stackable design different from the Delta series.
+
+### STREAM Microinverter (2024)
+*   **Status**: Current Standalone Microinverter.
+*   **Successor to**: **PowerStream**.
+*   **PV Input**: 1200W.
+*   **AC Output**: 800W.
+*   **Key Advantage**: Native MC4 support and upgraded thermal design.
+
+---
+
 ## 🔋 Battery Chemistry Matrix
 
 | Series | Model | Chemistry | Cycles to 80% | Lifespan Est. |

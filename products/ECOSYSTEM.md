@@ -3,13 +3,28 @@
 This document catalogs the "Eco-system" products that go beyond the basic power stations.
 
 ## ☀️ PowerStream (Balcony Solar System) (May 2023)
-*   **Status**: **EOL (End of Life)** in many regions; production shifting.
-*   **Replacement**: No direct "V2" microinverter, but succeeded by **PowerOcean** and **PowerOcean DC Fit** for full-home solar integration.
+*   **Status**: **EOL (End of Life)**; replaced by the **EcoFlow STREAM** series.
 *   **Type**: Microinverter (Grid-Tied).
 *   **Specs**: 800W AC Output (Grid) / 800W PV Input.
 *   **Battery Port**: 600W DC Input/Output. Connects to almost ALL EcoFlow power stations (Delta/River) acting as a massive battery buffer.
-*   **Unique Feature**: Feeds solar to your home grid (Base load) and stores excess in the battery.
-*   **Compatibility**: Needs specific BKW cables for Delta/River.
+*   **Unique Feature**: Feeds solar to your home grid (Base load) and stores excess in the battery via a proprietary BKW-Battery cable.
+*   **Successor**: **EcoFlow STREAM Microinverter** & **STREAM Ultra**.
+
+## 🌊 EcoFlow STREAM Series (Plug-and-Play Home Solar) (2024/2025)
+The next evolution of the balcony solar concept, moving away from "batteries on the floor" to integrated or more powerful wall-mounted units.
+
+### STREAM Ultra
+*   **Type**: All-in-One Solar Battery + Grid-Tied Inverter.
+*   **Capacity**: 1.92 kWh (Base) | Expandable up to 11.52 kWh.
+*   **Solar Input**: 2000W (4 MPPT controllers).
+*   **AC Output**: 2300W (Grid-tied).
+*   **Key Tech**: OASIS AI energy management, Gallium Nitride (GaN) efficiency.
+*   **Installation**: Stackable, plug-and-play (No electrician required for typical setups).
+
+### STREAM Microinverter
+*   **Type**: Standalone Grid-Tied Microinverter.
+*   **Solar Input**: 1200W (Supports standard MC4 connectors directly).
+*   **Improvements**: Higher efficiency and better thermal management than the original PowerStream.
 
 ## 🚗 Alternator Charger (June 2024)
 *   **Type**: DC-DC Charger (Input from Car Alternator).

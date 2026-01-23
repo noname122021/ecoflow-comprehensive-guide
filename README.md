@@ -18,8 +18,9 @@ Welcome to the unofficial guide for modifying, hacking, and deeply integrating E
 *   **[Device Image Gallery](products/GALLERY.md)**: Official images for all supported devices.
 *   **[Master Combination Matrix](products/MASTER_MATRIX.md)**: The ultimate table of all devices, specs, prices, and connection combos.
 *   **[Extra Battery Compatibility](products/BATTERY_COMPATIBILITY.md)**: Specfic matrix for V1, V2, and V3 batteries and their cross-compatibility.
-*   **[Device History & Specs](products/DEVICE_LIST.md)**: Detailed breakdown of River/Delta generations.
-*   **[Ecosystem & Accessories](products/ECOSYSTEM.md)**: PowerStream, Alternator Charger, LFP Batteries.
+*   **[Device History & Specs](products/DEVICE_LIST.md)**: Detailed breakdown of River/Delta/STREAM generations.
+*   **[Ecosystem: Accessories & Solar](products/ECOSYSTEM.md)**
+    *   Technical details on **PowerStream**, **STREAM Series**, **Alternator Charger**, and **Standalone LFP Batteries**.
 *   **[Compatibility Matrix](products/COMPATIBILITY.md)**: Technical input/output limits and cable types.
 
 ### 💻 Software & Protocols

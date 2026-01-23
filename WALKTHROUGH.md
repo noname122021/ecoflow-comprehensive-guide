@@ -19,8 +19,8 @@ This repository contains a comprehensive guide for advanced EcoFlow usage, hacki
     *   Step-by-step **Overvoltage Repair Sequence** for 110V units plugged into 220V.
     *   PowerStream failure analysis (cooling, potting, fuses).
 
-4.  **[Ecosystem: Accessories & Power Kits](products/ECOSYSTEM.md)**
-    *   Technical details on **PowerStream**, **Alternator Charger**, and **Standalone LFP Batteries**.
+4.  **[Ecosystem: Accessories & Solar](products/ECOSYSTEM.md)**
+    *   Technical details on **PowerStream**, **STREAM Series**, **Alternator Charger**, and **Standalone LFP Batteries**.
     *   **LFP Polarity Adapter** pinouts and CAN Bus logic.
 
 5.  **[Software & Protocols](software/PROTOCOLS.md)**

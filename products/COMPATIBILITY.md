@@ -53,11 +53,12 @@ Can I use Solar Panel X with Power Station Y?
 | :--- | :--- | :--- | :--- |
 | **Delta Pro 3** | ✅ | ✅ | Alt Charger needs adapter. |
 | **Delta 3 Plus / Max**| ✅ | ✅ | Direct XT150 connection. |
-| **Delta Pro** | ✅ (Needs Cable) | ✅ (Needs Adapter) | PowerStream needs BKW-DeltaPro cable. |
-| **Delta 2 Max** | ✅ (Needs Cable) | ✅ (Direct XT150) | Best match for Alternator Charger (Fast charge). |
-| **Delta 2** | ✅ (Needs Cable) | ✅ (Direct XT150) | |
-| **Delta Max** | ✅ (Needs Cable) | ✅ (Direct XT150) | |
-| **River 2 Series**| ✅ (Needs Cable) | ✅ (Via XT60 adapter) | Alt Charger output (800W) might exceed River input limits! Check specs. |
+| **Delta Pro** | ✅ | ✅ (Needs Adapter) | PowerStream needs BKW-DeltaPro cable. STREAM Micro connects via standard MC4/Grid. |
+| **Delta 2 Max** | ✅ | ✅ (Direct XT150) | Best match for Alternator Charger (Fast charge). |
+| **Delta 2** | ✅ | ✅ (Direct XT150) | |
+| **Delta Max** | ✅ | ✅ (Direct XT150) | |
+| **River 2 Series**| ✅ | ✅ (Via XT60 adapter) | Alt Charger output (800W) might exceed River input limits! Check specs. |
+| **STREAM Ultra** | ✅ (Integrated)| ✅ (Internal) | All-in-one unit. Can connect to additional DELTA batteries. |
 
 ## ⚙️ Smart Generator Compatibility
 
@@ -79,5 +80,7 @@ Can I use Solar Panel X with Power Station Y?
 | **River 2** | ✅ | ✅ | ❌ | ✅ |
 | **Delta Pro 3** | ✅ | ✅ | ✅ (Some regions) | ❓ (New Encryption?) |
 | **PowerStream** | ✅ | ✅ | ✅ (Plug Integration)| ✅ |
+| **STREAM Micro** | ✅ | ✅ | ✅ (OASIS AI) | ✅ |
+| **STREAM Ultra** | ✅ | ✅ | ✅ (OASIS AI) | ✅ |
 | **Alternator Chg**| ✅ | ✅ | ❌ | ❓ |
 

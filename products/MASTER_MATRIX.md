@@ -32,6 +32,8 @@
 | :--- | :---: | :---: | :---: | :---: |
 | **Smart Generator**| 2022/24| Dual Fuel | Delta Max/Pro/D2M | $1,599 |
 | **Power Kit Hub** | 2022 | Modular | 2kWh/5kWh Batteries | $3,000+ |
+| **STREAM Ultra**  | 2024 | All-in-One | Integrated (1.9-11kWh) | $2,500+ |
+| **STREAM Micro**  | 2024 | Microinverter| MC4 Solar / Home Grid | $800+ |
 
 
 ## 🔗 Connection Combinations (What works with what?)

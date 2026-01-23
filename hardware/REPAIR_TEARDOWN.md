@@ -5,8 +5,8 @@ This document compiles technical information from community teardowns, Reddit us
 > [!DANGER]
 > **HIGH VOLTAGE**: Opening an EcoFlow unit exposes you to lethal 220V/110V AC and high-amperage DC. Capacitors can hold charge for hours. This information is for educational purposes only.
 
-## 🧱 PowerStream Microinverter Failures
-The PowerStream is a sophisticated grid-tie microinverter, but early units have shown reliability issues.
+## 🧱 PowerStream / STREAM series Microinverter Failures
+The PowerStream (and its successor, the **EcoFlow STREAM Microinverter**) are sophisticated grid-tie units, but high power density in a small passively cooled shell leads to reliability issues.
 
 ### Common Failure Modes
 1.  **"0 Watt Output"**: Unit is online but pushes 0W to grid despite solar input.
@@ -52,7 +52,7 @@ If the unit smelled like smoke and died after plugging into 220V:
 *   **Reason**:
     1.  **Hardware**: The internal inverter transformer and capacitors are sized for the specific voltage/frequency.
     2.  **Firmware**: The region is hard-coded.
-*   **Workaround**: Use the **EcoFlow PowerStream**. It accepts high-voltage DC from the battery and inverts it to local grid voltage (220V), bypassing the Delta's internal 110V inverter.
+*   **Workaround**: Use the **EcoFlow PowerStream** or **STREAM Microinverter**. They accept high-voltage DC from the battery and invert it to local grid voltage (220V), bypassing the Delta's internal 110V inverter.
 
 ---
 
