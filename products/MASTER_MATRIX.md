@@ -68,4 +68,4 @@
 ## 🛠 Hackable Pairs
 *   **Delta 2** + **Generic 48V Server Rack Battery**: Possible via "Resistor Hack" (See [Hardware Mods](../hardware/EXTRA_BATTERY.md)).
 *   **EcoFlow BLADE EB**: The robotic mower extra battery is actually a high-quality LFP battery compatible with Delta 2.
-*   **EcoFlow 5kWh LFP Battery** + **Victron Inverter**: Possible via [Polarity Adapter](ECOSYSTEM.md).
+*   **EcoFlow 5kWh LFP Battery** + **Victron Inverter**: Possible via [Polarity Adapter (AB-CONV-PLUG)](ECOSYSTEM.md).
