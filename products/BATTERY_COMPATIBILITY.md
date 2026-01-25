@@ -72,7 +72,7 @@ The RIVER series is mostly standalone. Only specific models support expansion vi
 Connecting a **Pro-tier** battery (Delta Pro / Delta Pro 3 EB) to a **Standard-tier** station (Delta 2 / Delta 2 Max / Delta 3 Plus / Delta 3 Max) is possible but requires a specific chain of adapters because of the different physical connectors (4-pin vs XT150).
 
 ### The "Bridge" Sequence:
-![Pro 3 EB to Delta 3 Chain](./pro3_eb_to_delta3_chain.jpg)
+![Pro 3 EB to Delta 3 Chain](img/pro3_eb_to_delta3_chain.jpg)
 
 1.  **Extra Battery** (e.g., DELTA Pro 3 EB) - *Port: Female (4-pin)*
 2.  **EB Cable** (In-box with battery) - *Connectors: Male / Male (4-pin)*

@@ -10,21 +10,50 @@ This document catalogs the "Eco-system" products that go beyond the basic power 
 *   **Unique Feature**: Feeds solar to your home grid (Base load) and stores excess in the battery via a proprietary BKW-Battery cable.
 *   **Successor**: **EcoFlow STREAM Microinverter** & **STREAM Ultra**.
 
-## 🌊 EcoFlow STREAM Series (Plug-and-Play Home Solar) (2024/2025)
-The next evolution of the balcony solar concept, moving away from "batteries on the floor" to integrated or more powerful wall-mounted units.
+---
 
-### STREAM Ultra
-*   **Type**: All-in-One Solar Battery + Grid-Tied Inverter.
-*   **Capacity**: 1.92 kWh (Base) | Expandable up to 11.52 kWh.
-*   **Solar Input**: 2000W (4 MPPT controllers).
-*   **AC Output**: 2300W (Grid-tied).
-*   **Key Tech**: OASIS AI energy management, Gallium Nitride (GaN) efficiency.
-*   **Installation**: Stackable, plug-and-play (No electrician required for typical setups).
+## 🌊 EcoFlow STREAM Series (Plug-and-Play Home Solar) (2024/2025)
+The evolution of the balcony solar concept, moving to integrated stackable units and high-power microinverters. Managed via the **EcoFlow OASIS AI** platform.
+
+### STREAM Ultra (All-in-One System)
+A stackable home battery system with an integrated grid-tied inverter.
+*   **Models**: 
+    *   **Ultra**: 1.92 kWh (Base) | ~23.1 kg.
+    *   **Ultra X**: 3.84 kWh (Large) | ~38.8 kg.
+*   **Solar Input**: 2000W (4x MPPT @ 500W each | 16-60V).
+*   **AC Output**: 1200W (Grid-tied) | 2300W Bypass.
+*   **Expansion**: Stack up to 6 units (Max 11.52 kWh for Ultra / 23 kWh for Ultra X).
+*   **Durability**: IP65 / NEMA 4.
+*   **Life Cycles**: 6000 cycles to 70% capacity.
+
+<img src="img/stream_ultra.jpg" width="450" alt="EcoFlow STREAM Ultra">
 
 ### STREAM Microinverter
-*   **Type**: Standalone Grid-Tied Microinverter.
-*   **Solar Input**: 1200W (Supports standard MC4 connectors directly).
-*   **Improvements**: Higher efficiency and better thermal management than the original PowerStream.
+Next-gen standalone microinverter for use with existing rigid/flexible panels.
+*   **PV Input**: 1200W Max (3x MPPT | 16-60V).
+*   **AC Output**: 800W (Standard) / 600W (Software Limited).
+*   **Cooling**: Upgraded thermal sink design (No more overheating issues from V1).
+*   **Durability**: IP67 (Full outdoor immersion protection).
+
+<img src="img/stream_micro_800w.webp" width="350" alt="STREAM Microinverter Standard">
+<img src="img/stream_micro_1600w.webp" width="350" alt="STREAM Microinverter Pro">
+
+### The OASIS AI Ecosystem
+*   **Energy Optimization**: Uses weather forecasting to predict solar yield and optimize battery usage.
+*   **PowerInsight 2**: The dedicated 10-inch touch console for the STREAM series. Supports Matter 1.4 for third-party smart home integration.
+    <br><img src="img/stream_console_powerinsight2.jpg" width="350" alt="PowerInsight 2 Console">
+*   **Stacking Technology**: Proprietary high-current pins on the top/bottom of Ultra modules (No external battery cables needed for stacking).
+
+#### Comparison: PowerStream vs. STREAM Series
+| Feature | PowerStream (V1) | STREAM Series (V2) |
+| :--- | :--- | :--- |
+| **System Type** | Microinverter only | Integrated (Ultra) or Pro Micro |
+| **Solar Max** | 800W | 1200W (Micro) / 2000W (Ultra) |
+| **MPPTs** | 2 | 3 (Micro) / 4 (Ultra) |
+| **IP Rating** | IP67 | IP67 (Micro) / IP65 (Ultra) |
+| **AI Control** | Basic App | OASIS AI (Predictive) |
+
+---
 
 ## 🚗 Alternator Charger (June 2024)
 *   **Type**: DC-DC Charger (Input from Car Alternator).
@@ -34,6 +63,8 @@ The next evolution of the balcony solar concept, moving away from "batteries on 
 *   **Key Advantage**: Charges a Delta 2 Max in ~2.5 hours while driving (vs 8+ hours on cig lighter).
 *   **Tech**: GaN (Gallium Nitride) for compactness.
 *   **Reverse Charging**: Can maintaining vehicle battery from the Power Station (Jump Start/Trickle).
+
+<img src="img/alternator_charger.png" width="400" alt="EcoFlow Alternator Charger">
 
 ## 🧊 Smart Devices (Glacier, Wave, Blade)
 
@@ -93,6 +124,8 @@ The "Power Kit" system is modular, but some components (batteries) are useful st
 *   **Features**: Built-in BMS, Auto-Heating (works down to -20°C).
 *   **System Rules**: You **cannot mix** 2kWh and 5kWh batteries in a single system. Max 3 batteries total (15kWh).
 
+<img src="img/battery_lfp_2kwh.png" width="400" alt="EcoFlow 2kWh LFP Battery">
+
 ### LFP Battery Polarity Adapter
 *   **SKU**: `AB-CONV-PLUG`
 *   **Purpose**: Adapts the proprietary EcoFlow battery port to standard terminals & CAN Bus for third-party systems.
@@ -102,6 +135,9 @@ The "Power Kit" system is modular, but some components (batteries) are useful st
     *   **Pin 5**: CAN Low (L)
     *   **Pin 6**: Ground (GND)
 *   **Note**: Requires an **RJ45 Terminator** on the last battery in the chain for stable comms.
+
+<img src="img/polarity_adapter_top.png" width="300" alt="Polarity Adapter Top"> <img src="img/polarity_adapter_bottom.webp" width="300" alt="Polarity Adapter Bottom">
+<br><i>Left: Top view (Terminals) | Right: Bottom view (Battery Interface)</i>
 *   **Power Hub**: The 5-in-1 brain (Inverter + DC-DC + MPPT) usually required if not using the Polarity Adapter.
 
 ### Power Kit System Architecture (Mid-2022)
@@ -121,10 +157,14 @@ You can use a **2kWh/5kWh Power Kit Battery** + **Polarity Adapter (AB-CONV-PLUG
 ### The Setup:
 `LFP Battery` -> `Polarity Adapter` -> `XT60/XT60i Cable` -> `Portable Station (Solar Input)`
 
+<img src="img/polarity_adapter_on_battery.jpg" width="450" alt="Adapter on Battery Setup">
+
 ### The "3rd Pin" (XT60i) Logic:
 EcoFlow uses the middle 3rd pin to detect the source.
 *   **Pin Grounded/Detected**: Unit identifies as **Solar** (Full power).
 *   **Pin Open**: Unit identifies as **Car Charging** (Limited to ~8A).
+
+<img src="img/xt60_vs_xt60i_pinout.jpg" width="450" alt="XT60 vs XT60i Pinout">
 
 | Main Unit | Cable Type | Speed | Result |
 | :--- | :--- | :---: | :--- |
