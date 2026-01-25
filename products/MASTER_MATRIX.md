@@ -3,7 +3,10 @@
 | Product Name | Release | Capacity | Batt. Chemistry | Price (Launch/Avg) | Output (AC) | Solar Input (Max) | Expansion Units |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
 | **DELTA Pro 3** | 2024 | 4096 Wh | LFP | $3,699 / $3,299 | 4000W | 2600W | DP3 EB, DP EB |
-| **DELTA 3 Plus** | 2024 | 1024 Wh | LFP | $999 / $799 | 1800W | 500W | DP3 EB |
+| **DELTA 3 Ultra**| 2025 | 3072 Wh | LFP | $2,799 / $2,499 | 3600W | 1000W | D3 Ultra EB |
+| **DELTA 3 Max**  | 2025 | 2048 Wh | LFP | $1,899 / $1,699 | 2400W | 1000W | D3 Max EB |
+| **DELTA 3 Plus** | 2024 | 1024 Wh | LFP | $999 / $799 | 1800W | 500W | D3 EB, D2 EB |
+| **DELTA 3 / Cl.**| 2024 | 1024 Wh | LFP | $899 / $699 | 1800W | 500W | None |
 | **DELTA 2 Max** | 2023 | 2048 Wh | LFP | $1,899 / $1,599 | 2400W | 1000W | D2M EB, D2 EB, DM EB |
 | **DELTA 2** | 2022 | 1024 Wh | LFP | $999 / $649 | 1800W | 500W | D2 EB, DM EB |
 | **DELTA Pro** | 2021 | 3600 Wh | LFP | $3,699 / $2,500 | 3600W | 1600W | DP EB |

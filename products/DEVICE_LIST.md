@@ -7,21 +7,14 @@ This document catalogs the history of EcoFlow power stations (River/Delta).
 
 The DELTA series is designed for high output and capacity, suitable for home backup and heavy-duty use.
 
-### DELTA Pro 3 (2024)
-*   **Status**: Latest Flagship.
-*   **Capacity**: 4096 Wh (4 kWh).
-*   **Battery**: LiFePO4 (LFP) - 4000+ cycles.
-*   **Output**: 4000W AC (up to 8000W Surge).
-*   **Key Features**: 120V/240V split phase capable without extra hub (in some configs), quiet operation.
-*   **Expansion**: Supports Delta Pro 3 Extra Batteries & original Delta Pro Extra Batteries (with adapter).
+### DELTA 3 Series (2024/2025) - The New Standard
+The 3rd generation introduces **X-GaN** architectures and ultra-fast charging across the entire line.
 
-### DELTA 3 Plus (2024/2025)
-*   **Status**: New Mid-Tier Flagship.
-*   **Capacity**: 1024 Wh.
-*   **Battery**: LiFePO4 (LFP).
-*   **Output**: 1800W AC (X-Boost to 2700W).
-*   **Key Upgrade**: Ultra-fast charging (0-100% in ~56 mins), 10ms UPS grade switching.
-*   **Expansion**: Uses XT150 port. Compatible with Delta 2/Max batteries AND Pro 3 batteries (via Smart Generator Adapter chain).
+*   **DELTA Pro 3**: 4096 Wh | 4000W AC | 120V/240V | Flagship.
+*   **DELTA 3 Ultra / Ultra Plus**: 3072 Wh | 3600W AC | Scalable to 11kWh.
+*   **DELTA 3 Max / Max Plus**: 2048 Wh | 2400W-3000W AC | Scalable to 10kWh.
+*   **DELTA 3 Plus**: 1024 Wh | 1800W AC | 56-min 0-100% charge. 10ms UPS.
+*   **DELTA 3 / Classic**: 1024 Wh | 1800W AC | Entry-level 3rd gen.
 
 ### DELTA 2 Max (2023)
 *   **Status**: Current High-Tier.
@@ -115,24 +108,71 @@ The RIVER series focuses on portability and "grab-and-go" power.
 
 ---
 
-## 🌊 STREAM Series (Home Grid-Tied Solar)
+## ☀️ Solar Microinverters (Grid-Tied)
 
-Managed via the **EcoFlow OASIS** platform, this series bridges the gap between portable power and permanent home solar.
+### PowerStream Microinverter (V1) (2023)
+*   **Status**: **EOL** (Replaced by STREAM Micro).
+*   **PV Input**: 800W Max (2x 400W MPPT).
+*   **AC Output**: 600W / 800W.
+*   **Note**: Specifically designed for use with Portable Power Stations via BKW-cable.
 
-### STREAM Ultra (2024)
-*   **Status**: Current Flagship Home Solar Unit.
-*   **Type**: All-in-one Inverter + Battery.
+### STREAM Microinverters (V2) (2024/2025)
+*   **Status**: Current Standalone Microinverter.
+*   **PV Input**: 1200W (Standard) / 2400W (Pro).
+*   **AC Output**: 800W / 1600W.
+*   **Key Advantage**: Native MC4 support, upgraded thermal design, OASIS AI.
+
+### STREAM Ultra (All-in-One) (2024)
+*   **Status**: Flagship Home Solar Unit.
 *   **Capacity**: 1.92 kWh (Stackable up to 11.52 kWh).
 *   **Solar Max**: 2000W (4 MPPT).
-*   **AC Output**: 2300W (Grid-tied).
-*   **Note**: Uses a slimmer, vertical stackable design different from the Delta series.
+*   **AC Output**: 2300W (Grid-tied bypass).
 
-### STREAM Microinverter (2024)
-*   **Status**: Current Standalone Microinverter.
-*   **Successor to**: **PowerStream**.
-*   **PV Input**: 1200W.
-*   **AC Output**: 800W.
-*   **Key Advantage**: Native MC4 support and upgraded thermal design.
+---
+
+## 🧊 Smart Devices & Appliances
+
+### EcoFlow WAVE / WAVE 2
+*   **Type**: Portable Air Conditioner (WAVE 2 adds Heating).
+*   **Power**: 5100 BTU Cooling / 6100 BTU Heating.
+*   **Battery**: Add-on (1159Wh) or direct DC from Delta stations.
+
+### EcoFlow GLACIER
+*   **Type**: Portable Fridge/Freezer + Ice Maker.
+*   **Specialty**: Integrated ice maker (18 cubes / 12 mins).
+*   **Battery**: 298Wh plug-in battery.
+
+### EcoFlow BLADE
+*   **Type**: Robotic Lawnmower with Lawn Sweeping.
+*   **Status**: **Discontinued**.
+*   **Tech**: RTK GPS (No perimeter wire).
+
+---
+
+## ⚙️ Smart Generators (Fuel Backup)
+
+### Smart Generator (Original Dual Fuel)
+*   **Fuel**: Gasoline & LPG (Propane).
+*   **Output**: 1800W (Gas) / 1600W (LPG).
+*   **Integration**: Direct DC charging for Delta Pro/Max.
+
+### Smart Generator 4000 (Dual Fuel)
+*   **Output**: 4000W Peak / 3200W Continuous.
+*   **Efficiency**: 40% fuel savings when paired with Delta series.
+
+---
+
+## 🚐 Power Kit Components (Modular)
+
+### Power Hub
+*   **Role**: 5-in-1 energy hub (Inverter/MPPT/DC-DC).
+*   **Inputs**: Max 6000W total (Solar + Alternator + Shore).
+*   **Output**: 3600W AC.
+
+### LFP Batteries (Power Kit)
+*   **2kWh (efm100-bpb)**: 51.2V / 40Ah | LFP.
+*   **5kWh**: 51.2V / 100Ah | LFP.
+*   **Rule**: Cannot mix 2kWh and 5kWh modules in one system.
 
 ---
 
@@ -148,5 +188,7 @@ Managed via the **EcoFlow OASIS** platform, this series bridges the gap between 
 | | **Delta Pro** | **LFP** | **3500+** | **10+ Years** |
 | **RIVER** | River (Original) | NCM | ~500-800 | 2 Years |
 | | **River 2 (All)**| **LFP** | **3000+** | **10+ Years** |
+| **SMART** | Wave 2 / Glacier| **LFP** | **3000+** | **10+ Years** |
+| **PRO** | STREAM / PowerKit| **LFP** | **6000+** | **15+ Years** |
 
 > **Tech Note**: LFP (Lithium Iron Phosphate) is heavier but safer and lasts 4-5x longer than NCM. Always buy LFP used if possible.

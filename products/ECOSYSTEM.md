@@ -70,16 +70,30 @@ Next-gen standalone microinverter for use with existing rigid/flexible panels.
 
 In 2023, EcoFlow expanded into "Smart Devices" that use their battery tech.
 
+### EcoFlow WAVE 3 (April 2025)
+*   **Status**: Current Flagship.
+*   **Type**: Portable Air Conditioner & Heater.
+*   **Performance**: 6100 BTU Cooling / 6800 BTU Heating.
+*   **Battery**: Uses add-on LFP battery (1024Wh) or connects to Delta 2/Max/Pro/3.
+*   **Refrigerant**: R290.
+*   **Key Upgrade**: Increased heating capacity and integration with Delta 3 series.
+
 ### EcoFlow WAVE 2 (May 2023)
-*   **Status**: **Current Model**.
-*   **Replacement for**: EcoFlow WAVE (Original).
+*   **Status**: **Legacy / Still Available**.
 *   **Type**: Portable Air Conditioner & Heater.
 *   **Performance**: 5100 BTU Cooling / 6100 BTU Heating.
 *   **Battery**: Uses add-on battery (1159Wh) or connects to Delta 2/Max/Pro.
 *   **Runtime**: ~8 hours (Eco Mode).
 *   **Refrigerant**: R290 (Green).
 
-### EcoFlow GLACIER (April 2023)
+### EcoFlow GLACIER Classic (April 2025)
+*   **Status**: Current Model (Successor to original Glacier).
+*   **Type**: Portable Cooler/Freezer (Focus on space efficiency).
+*   **Sizes**: 35L, 45L, 55L options.
+*   **Battery**: Uses the same 298Wh plugin battery as the original Glacier.
+*   **Key Differences**: **Removed Ice Maker** to maximize storage volume (+30-40% space efficiency). Reversible door.
+
+### EcoFlow GLACIER (Original) (April 2023)
 *   **Type**: Portable Fridge/Freezer + Ice Maker.
 *   **Key Feature**: Integrated Ice Maker (18 cubes in 12 mins).
 *   **Battery**: 298Wh plug-in battery (optional).

@@ -11,8 +11,10 @@ This matrix defines which power stations (Main Units) can accept which Extra Bat
 | **DELTA Max EB** | 2016 Wh | NCM | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ |
 | **DELTA Pro EB** | 3600 Wh | LFP | ❌ | ❌ | ❌ | ❌ | ✅ | ✅¹ |
 | **DELTA Pro 3 EB**| 4096 Wh | LFP | ❌ | ❌ | ❌ | ❌ | ✅ | ✅ |
-| **DELTA 3 Plus EB**| 1024 Wh | LFP | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **DELTA 3 (All) EB**| 1024/2048Wh| LFP | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| **DELTA 3 Ultra EB**| 3072 Wh | LFP | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **BLADE EB** | 1024 Wh | LFP | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| **WAVE 3 EB** | 1024 Wh | LFP | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 ## 🔋 RIVER Series Compatibility
 
