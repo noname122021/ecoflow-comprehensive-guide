@@ -19,6 +19,7 @@ The evolution of the balcony solar concept, moving to integrated stackable units
 A stackable home battery system with an integrated grid-tied inverter.
 *   **Models**: 
     *   **Ultra**: 1.92 kWh (Base) | ~23.1 kg.
+    *   *Technical Note*: **[Using Ultra during a Blackout](../usage/EMERGENCY_BACKUP.md)**.
     *   **Ultra X**: 3.84 kWh (Large) | ~38.8 kg.
 *   **Solar Input**: 2000W (4x MPPT @ 500W each | 16-60V).
 *   **AC Output**: 1200W (Grid-tied) | 2300W Bypass.

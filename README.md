@@ -22,6 +22,7 @@ Welcome to the unofficial guide for modifying, hacking, and deeply integrating E
 *   **[Ecosystem: Accessories & Solar](products/ECOSYSTEM.md)**
     *   Technical details on **PowerStream**, **STREAM Series**, **Alternator Charger**, and **Standalone LFP Batteries**.
 *   **[Compatibility Matrix](products/COMPATIBILITY.md)**: Technical input/output limits and cable types.
+*   **[Emergency Usage & Blackout Guide](usage/EMERGENCY_BACKUP.md)**: Critical info on STREAM Ultra limitations, switching speeds, and backup strategy.
 
 ### 💻 Software & Protocols
 *   **[Protocols (MQTT & Protobuf)](software/PROTOCOLS.md)**: Deep dive into how EcoFlow devices talk to the cloud and how you can intercept/decode these messages for Home Assistant or local control.
