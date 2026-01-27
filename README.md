@@ -13,6 +13,7 @@ Welcome to the unofficial guide for modifying, hacking, and deeply integrating E
 *   **[Extra Battery Port Hack](hardware/EXTRA_BATTERY.md)**: How to connect cheap 48V server rack LiFePO4 batteries to your Delta 2/Max/Pro instead of buying expensive official extra batteries.
 *   **[Cables & Pinouts](hardware/CABLES.md)**: Details on the XT150 and XT60 connectors used for solar and battery expansion.
 *   **[Repair & Teardowns](hardware/REPAIR_TEARDOWN.md)**: Info on "PowerStream" failures, 110V vs 220V accidents, and internal chip usage.
+*   **[Delta 3 Incompatibility Trap](hardware/DELTA3_MAX_PLUS_TRAP.md)**: **CRITICAL** for Delta 3 owners trying to connect Max Plus Extra Batteries (2-pin vs 4-pin issue).
 
 ### 🧬 Teardowns & Disassembly
 *   **[LFP Battery Adapter](teardowns/LFP_ADAPTER.md)**: Activating Delta Pro batteries without the official adapter (Pin 4-5 short).
