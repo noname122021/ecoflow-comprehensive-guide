@@ -19,16 +19,20 @@ This repository contains a comprehensive guide for advanced EcoFlow usage, hacki
     *   Step-by-step **Overvoltage Repair Sequence** for 110V units plugged into 220V.
     *   PowerStream failure analysis (cooling, potting, fuses).
 
-4.  **[Ecosystem: Accessories & Solar](products/ECOSYSTEM.md)**
+4.  **[Teardowns & Disassembly Guides](teardowns/LFP_ADAPTER.md)**
+    *   Specific steps for disassembling and probing EcoFlow accessories.
+    *   **LFP Adapter activation hack** (shorting Pins 4 & 5).
+
+5.  **[Ecosystem: Accessories & Solar](products/ECOSYSTEM.md)**
     *   Technical details on **PowerStream**, **STREAM Series**, **Alternator Charger**, and **Standalone LFP Batteries**.
     *   **LFP Polarity Adapter** pinouts and CAN Bus logic.
 
-5.  **[Software & Protocols](software/PROTOCOLS.md)**
+6.  **[Software & Protocols](software/PROTOCOLS.md)**
     *   MQTT (Port 6500) and Protobuf payload structures.
     *   **Direct Connection Mode** (Local MQTT bypass) explanation.
     *   Link to reverse-engineering repositories.
 
-6.  **[Advanced Automation](ADVANCED.md)**
+7.  **[Advanced Automation](ADVANCED.md)**
     *   Home Assistant examples for **Solar Excess Charging**.
     *   Key combinations for device resets and BMS recalibration.
 

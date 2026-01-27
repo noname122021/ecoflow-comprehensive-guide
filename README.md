@@ -14,6 +14,9 @@ Welcome to the unofficial guide for modifying, hacking, and deeply integrating E
 *   **[Cables & Pinouts](hardware/CABLES.md)**: Details on the XT150 and XT60 connectors used for solar and battery expansion.
 *   **[Repair & Teardowns](hardware/REPAIR_TEARDOWN.md)**: Info on "PowerStream" failures, 110V vs 220V accidents, and internal chip usage.
 
+### 🧬 Teardowns & Disassembly
+*   **[LFP Battery Adapter](teardowns/LFP_ADAPTER.md)**: Activating Delta Pro batteries without the official adapter (Pin 4-5 short).
+
 ### 📊 Product Database
 *   **[Device Image Gallery](products/GALLERY.md)**: Official images for all supported devices.
 *   **[Master Combination Matrix](products/MASTER_MATRIX.md)**: The ultimate table of all devices, specs, prices, and connection combos.
